@@ -1,0 +1,19 @@
+.donut {
+  background: red;
+  width: 10rem;
+  height: 10rem;
+  border: 0;
+  border-right: #01799e solid #019e50;
+  border-left: #019e50 solid #850309;
+  border-bottom: #9e016f solid #9b9e01;
+  border-top:#9b9e01 solid #01799e;
+  border-radius:25rem;
+  box-shadow:0px 55px 25px -10px rgba(139, 2, 2, 0.25) , 0px 30px 25px -10px rgba(0,0,0,0.3) inset;
+}
+
+.center{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translatex(-150%) translatey(-150%);
+}

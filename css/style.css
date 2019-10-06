@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+
+/* Start Globe */
+
+body {
+    color: #333;
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #191A1E;
+}
+
+
+ul {
+    list-style: none;
+    color: #989DAC;
+    padding: 0;
+    margin: 0
+}
+
+hr {
+    border: 0;
+    background-color: #202228;
+    height: 1px;
+    margin: 0;
+    box-shadow: 1px 1px 2px #393838;
+}
+
+/* End Globe */
+
+/* Start  Navbar */
+
+aside {
+    float: left;
+    background-color: #27292F;
+    overflow: hidden
+}
+
+nav .icon ul {box-shadow: 2px 0 8px #000}
+
+nav .icon ul li {padding: 20px}
+
+nav .icon ul li:hover {
+    background-color: #5C9DF5;
+    color: #FFF;
+    cursor: pointer    
+}
+
+nav .icon ul .select {
+    background-color: #191B1E;
+    border-left: 3px solid #5C9DF5
+}
+
+nav .icon, nav .options {float: left}
+
+nav .options p {
+    color: #FFF;
+    font-size: 20px;
+    padding: 5px 40px 5px 20px
+}
+
+nav .options h6 {
+    color: #383B42;
+    font-family: Arial, Tahoma;
+    padding-left: 20px;
+    margin: 10px 0
+}
+
+nav .options ul li {padding: 5px 5px 5px 20px;height: 22px}
+
+nav .options ul li:hover {
+    background-color: rgba(0,0,0,0.2);
+    cursor: pointer 
+}
+
+nav .options ul li span {
+    margin-left: 20px;
+    border: 1px solid #4B4E57 ;
+    padding: 2px 5px;
+    border-radius: 48%;
+    font-size: 11px;
+    color: #4B4E57
+}
+
+nav .options .nu {padding-left: 8px;padding-right: 8px}
+
+/* End Navbar */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+}
+
+.grid > article {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.grid > article img {
+  max-width: 100%;
+}
+
+.grid .text {
+  padding: 20px;
+  text-align: center;
+}
+
+.grid .text h3 {
+  font-size: 1.4rem;
+  font-family: 'Fredoka One', cursive;
+}
+
+.grid .text p {
+  font-size: 0.9rem;
+}
+
+.grid .text p a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #555;
+  font-family: 'Courgette', cursive;
+}
