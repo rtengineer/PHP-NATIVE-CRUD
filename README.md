@@ -11,6 +11,5 @@ Password : 123
 Username : manzola13
 Password : 123123
 
-![1](https://user-images.githubusercontent.com/48481265/66276816-5f322f00-e8c0-11e9-9c96-6059dace09c5.png)
 ## Orderring (pengeluaran)
 ![7](https://user-images.githubusercontent.com/48481265/66276832-90aafa80-e8c0-11e9-8168-4e647a0b858a.png)
